@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Papyrus&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Alata");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(255, 255, 255, 1);
+}
+
+.imagebackground {
+    height: 650px;
+    background-image: url(assets/images/mobile/image-hero.jpg);
+    background-size: 375px 650px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+}
+
+.Loopstudios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loppparagraph{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Impact", sans-serif;
+}
+
+.maskconteiner {
+    width: 24px;
+    height: 16px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.mask {
+    width: 24px;
+    height: 2px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.experience {
+    width: 327px;
+    height: 196px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    margin-top: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience p {
+    width: 279px;
+    height: 146px;
+    font-family: "Josefin Sans";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.VRglasses {
+    width: 327px;
+    height: 527px;
+    padding: 5px 24px;
+}
+
+.VRglasses img {
+    height: 224px;
+}
+
+.VRglasses h2 {
+    width: 279px;
+    height: 64px;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 48px;
+}
+
+.h2p {
+    width: 279px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 48px 24px;
+}
+
+.h2p p {
+    font-family: "Alata";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 24px;
+}
+
+h1 {
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.manyphotos {
+    padding: 48px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.photos {
+    width: 327px;
+    height: 120px;
+}
+
+.photos p {
+    width: 108px;
+    height: 48px;
+    padding: 52px 20px;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.photo1 {
+    background-image: url("assets/images/mobile/image-deep-earth.jpg");
+}
+
+.photo2 {
+    background: url("assets/images/mobile/image-night-arcade.jpg");
+    background-repeat: repeat-x;
+    background-size: 350px 127px;
+}
+
+.photo3 {
+    background-image: url("assets/images/mobile/image-soccer-team.jpg");
+}
+
+.paragraphphoto p {
+    width: 150px;
+}
+
+.photo4 {
+    background-image: url("assets/images/mobile/image-grid.jpg");
+}
+
+.photo5 {
+    background-image: url("assets/images/mobile/image-from-above.jpg");
+}
+
+.photo6 {
+    background-image: url("assets/images/mobile/image-pocket-borealis.jpg");
+}
+
+.photo7 {
+    background-image: url("assets/images/mobile/image-curiosity.jpg");
+}
+
+.photo8 {
+    background-image: url("assets/images/mobile/image-fisheye.jpg");
+}
+
+.seeall{
+    width: 157px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 1);
+margin-left: 85px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+
+.seeall p{
+    font-family: 'Alata';
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 5px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+
+.lastconteinerpropertyes{
+
+padding-top:  96px;
+display: flex;
+}
+
+.lastconteiner{
+    width: 375px;
+height: 470px;
+background: rgba(0, 0, 0, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.lastconteinerchild{
+    width: 272px;
+height: 358px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+}
+.searchdiv{
+    width: 59px;
+height: 189px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+
+}
+.search{
+    width: 42px;
+height: 25px;
+font-family: 'Alata';
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+
+.social {
+    width: 144px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.lastparagraph{
+    width: 272px;
+height: 25px;
+font-family: 'Alata';
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color: rgba(255, 255, 255, 0.5);
+margin-left: 5px;
+
+}
